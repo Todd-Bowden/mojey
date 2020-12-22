@@ -1,0 +1,20 @@
+module Skb
+{
+    explicit module SecureKeyBox
+    {
+        header "../SkbSecureKeyBox.h"
+        export *
+    }
+
+    explicit module Platform
+    {
+        header "../SkbPlatform.h"
+        export *
+    }
+
+    explicit module Configuration
+    {
+        header "../SkbConfiguration.h"
+        export *
+    }
+}

@@ -1,0 +1,22 @@
+//
+//  sckey.swift
+//  SkbExamplesSwift
+//
+//  Created by Todd Bowden on 7/9/19.
+//
+
+import Foundation
+
+let EXPORTED_SHOWER_KEY:[UInt8] = Data(hexString: "a62e4b1802000000010000010000000000ba9dc609adca7e594a390fb54932d1be77c8e382428914bf3e13160cbf643e6cdaed2aa8e5adc8fa3e1ef027cc8b9ff20000000112d8cfd48f170a58184f0cfdb5faa9ad60b06bcc4e3e2a0f000000203b78f730a0513d00c52e88b1e712da012c2fa3bc03dc9ef84497aa032bdb0d7d00000000000000000000000000000000e1a6e1d616aadf27fc89e0065b068fd850d706d1")!.map { $0 }
+
+
+let PUBLIC_SHOWER_KEY = Data(hexString: "04657e8ab3fd6801c3946e660f94c7cbd37684b074bc77f06b6537ed78eff0ebb899d8c6c4e4e491aa3805d4377420a60333fba24ca3263ac5bd25e5e9d342fae4")!
+
+
+let PRAVATE_SHOWER_KEY = Data(hexString: "4a42f7ce983338933970af1bc0c2473146fa940f25d21a5642e3f34814b2e4df")!
+
+
+
+
+
+
